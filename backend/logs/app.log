@@ -1,0 +1,277 @@
+2026-02-25 16:01:39,857 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-02-25 16:02:05,574 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-02-25 16:02:36,092 - routes.model_routes - INFO - Models API request received
+2026-02-25 16:02:55,348 - routes.model_routes - INFO - Models API response prepared successfully
+2026-02-25 16:03:37,384 - routes.prediction_routes - INFO - Prediction request received
+2026-02-25 16:04:19,289 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-02 12:08:38,517 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-02 12:08:44,500 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-02 12:08:57,044 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-02 12:09:06,823 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 11:31:28,709 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 11:31:42,875 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 12:09:17,449 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 12:09:26,588 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 12:21:20,835 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 12:21:29,557 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 12:48:07,762 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 12:48:17,126 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 13:01:09,001 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 13:01:18,651 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 13:50:04,396 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 13:50:13,447 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 13:52:00,196 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 13:52:08,911 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 14:09:58,586 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 14:10:08,091 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 14:10:44,780 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 14:10:54,653 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 14:18:51,810 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 14:19:01,363 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 14:30:24,151 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 14:30:36,996 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 14:59:13,305 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 14:59:22,088 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 15:06:12,768 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 15:06:21,653 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 20:20:19,447 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 20:20:29,832 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 20:21:23,653 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 20:21:32,611 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 20:44:02,316 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 20:44:22,060 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 20:47:21,248 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 20:47:41,684 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 20:52:14,747 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 20:52:52,579 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:09:17,861 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:09:27,976 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:10:39,716 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:10:49,266 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:13:16,177 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:13:28,580 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:31:49,887 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:32:01,014 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:33:47,582 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:33:56,545 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:35:25,010 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:35:34,702 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:35:43,712 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:35:53,387 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:37:16,060 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:37:25,295 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:38:32,246 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:38:43,543 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:47:00,256 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:47:09,277 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:47:40,038 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:47:49,392 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:48:56,571 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:49:05,920 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:57:54,900 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:58:05,006 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 21:58:31,737 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 21:58:41,492 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 22:00:20,253 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 22:00:31,339 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 22:01:20,780 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 22:01:32,391 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 22:14:50,025 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 22:15:01,991 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-03 22:17:45,089 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-03 22:17:58,674 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:12:58,702 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:13:16,585 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:15:01,275 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:15:13,837 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:17:20,783 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:17:33,721 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:23:29,987 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:23:39,918 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:34:30,910 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:34:40,849 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:42:25,255 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:42:35,450 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:52:54,182 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:53:06,688 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 13:53:32,318 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 13:53:44,029 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:03:01,699 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:03:12,605 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:11:42,544 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:11:52,645 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:22:57,775 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:23:07,816 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:24:06,479 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:24:17,153 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:39:14,979 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:39:29,676 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 14:42:48,741 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 14:42:59,132 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 15:00:44,038 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 15:00:55,886 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 15:02:36,002 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 15:02:45,897 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 15:12:49,201 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 15:12:59,106 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 15:25:33,663 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 15:25:43,632 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 15:49:28,166 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 15:49:49,224 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-04 16:02:10,158 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-04 16:02:21,199 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 08:34:17,719 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 08:35:02,366 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:18:41,031 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:18:51,995 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:19:10,614 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:19:19,915 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:26:33,749 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:26:43,314 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:37:22,232 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:37:33,899 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:40:23,258 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:40:33,187 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:41:06,393 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:41:15,755 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:41:33,131 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:41:42,956 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 09:52:44,493 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 09:52:55,038 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 10:07:16,520 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 10:07:26,523 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 10:17:48,265 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 10:17:58,537 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 10:18:05,274 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 10:18:14,495 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 10:41:37,506 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 10:41:47,352 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 10:58:58,922 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 10:59:08,757 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 11:01:17,496 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 11:01:27,854 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 11:07:50,073 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 11:08:00,077 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 11:08:50,078 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 11:08:59,765 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 11:19:25,402 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 11:19:39,696 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 11:39:57,179 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 11:40:05,893 - routes.prediction_routes - ERROR - Prediction route error: The feature names should match those that were passed during fit.
+Feature names must be in the same order as they were in fit.
+
+2026-03-05 11:43:04,962 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 11:43:14,735 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 11:59:56,543 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 12:00:06,699 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 12:00:38,220 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 12:00:45,078 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 12:38:47,291 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 12:39:26,888 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 12:44:01,951 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 12:44:25,077 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 12:49:30,864 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 12:49:49,285 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 12:51:25,148 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 12:51:45,476 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 17:45:44,285 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 17:45:56,325 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 17:47:23,610 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 17:47:31,288 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:09:13,962 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 18:09:26,084 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 18:10:18,373 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 18:10:23,489 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:30:39,920 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 18:30:53,284 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 18:31:32,831 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 18:31:37,689 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:32:03,588 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 18:32:07,530 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 18:32:07,965 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 18:32:09,842 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:32:19,902 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:32:20,144 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 18:47:28,188 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 18:47:44,773 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 18:58:07,494 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 18:58:21,576 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:10:39,620 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:10:54,211 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:18:10,342 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:18:24,392 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:19:14,623 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:19:30,085 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:25:49,869 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:26:05,585 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:28:05,180 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:28:19,733 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:29:35,029 - routes.prediction_routes - INFO - Prediction request received
+2026-03-05 19:29:43,626 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-05 19:43:34,867 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:43:49,289 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:44:22,661 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:44:36,709 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:45:18,352 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:45:33,803 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:45:33,954 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:45:49,004 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:51:14,065 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:51:31,584 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:53:52,451 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:54:06,945 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:54:59,996 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:55:16,148 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 19:57:42,391 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 19:57:56,794 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:14:19,457 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:14:34,132 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:14:55,165 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:15:12,553 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:21:36,961 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:21:52,713 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:30:30,637 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:30:48,097 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:31:05,595 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:31:19,390 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:33:12,919 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:33:29,293 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:34:58,535 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:35:15,078 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:35:52,263 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:36:09,505 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:42:04,178 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:42:22,678 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:58:30,090 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:58:46,696 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 20:59:32,343 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 20:59:48,669 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 21:01:15,843 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 21:01:30,720 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 21:01:56,182 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 21:02:10,578 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-05 21:08:29,344 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-05 21:08:45,256 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-07 11:32:19,371 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-07 11:34:46,622 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-07 11:34:57,327 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-07 11:35:51,855 - routes.prediction_routes - INFO - Prediction request received
+2026-03-07 11:35:57,056 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-07 11:36:24,609 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-07 11:36:35,051 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-07 12:00:38,832 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-07 12:00:57,188 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-07 12:11:31,512 - routes.prediction_routes - INFO - Prediction request received
+2026-03-07 12:11:42,168 - routes.prediction_routes - INFO - Prediction request received
+2026-03-07 12:11:42,222 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-07 12:11:54,622 - routes.prediction_routes - INFO - Prediction successful using model: xgboost
+2026-03-10 10:42:55,020 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 10:44:26,191 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 10:56:39,135 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 10:56:51,343 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-10 10:58:28,463 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 10:58:42,790 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-10 11:18:04,705 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 11:18:16,083 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully
+2026-03-10 13:13:44,122 - routes.dashboard_routes - INFO - Dashboard API request received
+2026-03-10 13:13:57,821 - routes.dashboard_routes - INFO - Dashboard API response prepared successfully

@@ -1,0 +1,209 @@
+.kpi-card {
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.03),
+    rgba(255, 255, 255, 0.015)
+  );
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  padding: 1.8rem;
+  height: 200px;
+  perspective: 1000px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.kpi-card:hover {
+  border: 1px solid var(--accent-color);
+  box-shadow: 0 0 25px var(--accent-glow);
+  transform: translateY(-4px);
+}
+
+.kpi-card::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: var(--accent-color);
+  transition: width 0.4s ease;
+  border-radius: 0 0 18px 18px;
+}
+
+.kpi-card:hover::after {
+  width: 100%;
+}
+
+/*Flip Structure of kpi of dashboard  */
+
+.kpi-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.9s ease;
+}
+
+.kpi-card.flipped .kpi-inner {
+  transform: rotateY(180deg);
+}
+
+.kpi-front,
+.kpi-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+/* kpis front Designs */
+
+.kpi-front {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.kpi-front h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.kpi-front h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-shadow:
+    0 0 6px rgba(255, 255, 255, 0.3),
+    0 0 12px rgba(255, 255, 255, 0.15);
+  line-height: 1.1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.kpi-front h2.model-text {
+  font-size: clamp(1.3rem, 1.6rem, 1.7rem);
+  white-space: normal;
+  overflow: visible;
+  text-overflow: unset;
+  word-break: break-word;
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+/* kpis BACK DESIGN                                           */
+
+.kpi-back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kpi-back-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.kpi-back-content p {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  margin-top: 0.6rem;
+}
+
+.kpi-badge {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 20px;
+  background: var(--accent-color);
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+/* Model switch buttons css  */
+
+.model-switcher {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.model-switch-btn {
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Logistic Blue */
+.model-switch-btn.logistic.active {
+  background: #3b82f6;
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.6);
+}
+
+/* Random Forest Green */
+.model-switch-btn.random_forest.active {
+  background: #10b981;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.6);
+}
+
+/* XGBoost Purple */
+.model-switch-btn.xgboost.active {
+  background: #7c3aed;
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.6);
+}
+
+/* Model Intelligence KPI cards                          */
+
+.model-kpi-card {
+  background: rgba(15, 23, 42, 0.7);
+
+  border-radius: 12px;
+
+  padding: 20px;
+
+  text-align: center;
+
+  color: white;
+
+  border: 1px solid rgba(255, 255, 255, 0.05);
+
+  transition: 0.3s;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.model-kpi-card h4 {
+  font-size: 14px;
+
+  opacity: 0.7;
+
+  margin-bottom: 8px;
+}
+
+.model-kpi-card h2 {
+  font-size: 26px;
+
+  font-weight: 700;
+
+  color: white;
+}
+
+.model-kpi-card:hover {
+  transform: translateY(-6px);
+
+  border: 1px solid var(--accent);
+
+  box-shadow: 0 0 20px var(--accent);
+}

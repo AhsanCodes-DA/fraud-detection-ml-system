@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fraud Intelligence System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- ApexCharts CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/components.css">
+    <link rel="stylesheet" href="CSS/animations.css">
+    <link rel="stylesheet" href="CSS/themes.css">
+
+    <!-- Title Styling -->
+    <style>
+        .project-title {
+            font-size: 2.6rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 2.5rem;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, #7c3aed, #22d3ee);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            position: relative;
+            animation: glowPulse 3s ease-in-out infinite;
+        }
+        
+        .project-title::after {
+            content: "";
+            position: absolute;
+            inset: -10px;
+            border-radius: 12px;
+            background: linear-gradient(90deg, #7c3aed, #22d3ee);
+            filter: blur(25px);
+            opacity: 0.25;
+            z-index: -1;
+        }
+        
+        @keyframes glowPulse {
+            0% {
+                filter: brightness(1);
+            }
+            50% {
+                filter: brightness(1.25);
+            }
+            100% {
+                filter: brightness(1);
+            }
+        }
+        /* HEATMAP GRID  */
+        
+        .heatmap-container {
+            margin-top: 20px;
+        }
+        
+        .heatmap-grid {
+            display: grid;
+            grid-template-columns: repeat(30, 20px);
+            gap: 6px;
+            margin-top: 20px;
+        }
+        
+        .heat-cell {
+            width: 20px;
+            height: 20px;
+            border-radius: 4px;
+            background: #1e293b;
+            transition: 0.2s;
+        }
+        
+        .heat-cell.level1 {
+            background: #93c5fd;
+        }
+        
+        .heat-cell.level2 {
+            background: #60a5fa;
+        }
+        
+        .heat-cell.level3 {
+            background: #3b82f6;
+        }
+        
+        .heat-cell.level4 {
+            background: #1d4ed8;
+        }
+        
+        .heat-cell:hover {
+            transform: scale(1.3);
+            box-shadow: 0 0 8px rgba(96, 165, 250, 0.9);
+        }
+        
+        .heatmap-legend {
+            margin-top: 15px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #cbd5f5;
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+
+<body class="app-theme">
+
+    <div id="app" class="app-container">
+
+        <!-- SIDEBAR -->
+        <aside id="sidebar" class="sidebar">
+
+            <div class="sidebar-header">
+
+                <div class="logo-container">
+
+                    <h1 class="logo-text">Fraud AI</h1>
+
+                    <div class="logo-divider"></div>
+
+                </div>
+
+            </div>
+
+            <nav class="sidebar-nav">
+                <button class="nav-item active" data-section="overview">Overview</button>
+                <button class="nav-item" data-section="analytics">Analytics</button>
+                <button class="nav-item" data-section="models">Model Intelligence</button>
+                <button class="nav-item" data-section="prediction">Risk Prediction</button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button id="toggleSidebar">Collapse</button>
+            </div>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main id="mainContent">
+
+            <!-- OVERVIEW -->
+            <section id="overview" class="section active-section">
+
+                <div class="section-content">
+
+                    <h2 class="project-title">
+                        AI Fraud Risk Analytics Dashboard
+                    </h2>
+
+                    <div id="modelSwitcher" class="model-switcher"></div>
+
+                    <div id="kpiContainer" class="kpi-grid"></div>
+
+                    <div class="charts-grid">
+
+                        <div class="chart-card">
+                            <div id="donutChart"></div>
+                        </div>
+
+                        <div class="chart-card">
+                            <div id="trendChart"></div>
+                        </div>
+
+                        <div class="chart-card">
+                            <div id="ratioChart"></div>
+                        </div>
+
+                        <div class="chart-card">
+                            <div id="metricsChart"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ANALYTICS -->
+            <section id="analytics" class="section">
+
+                <div class="section-content">
+
+                    <div class="chart-card">
+
+                        <h3 style="color:white;font-size:16px;">Fraud Activity Heatmap</h3>
+
+                        <div id="heatmapChart" class="heatmap-container">
+
+                            <!-- HEATMAP GRID -->
+                            <div class="heatmap-grid">
+
+                                <!-- Example cells (JS will replace later) -->
+                                <div class="heat-cell level1"></div>
+                                <div class="heat-cell level2"></div>
+                                <div class="heat-cell level3"></div>
+                                <div class="heat-cell level4"></div>
+                                <div class="heat-cell level2"></div>
+                                <div class="heat-cell level1"></div>
+                                <div class="heat-cell level3"></div>
+                                <div class="heat-cell level2"></div>
+                                <div class="heat-cell level4"></div>
+                                <div class="heat-cell level3"></div>
+
+                            </div>
+
+                            <div class="heatmap-legend">
+                                Less
+                                <div class="heat-cell"></div>
+                                <div class="heat-cell level1"></div>
+                                <div class="heat-cell level2"></div>
+                                <div class="heat-cell level3"></div>
+                                <div class="heat-cell level4"></div>
+                                More
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- MODEL INTELLIGENCE -->
+            <section id="models" class="section">
+                <div class="section-content">
+                    <div id="modelMetricsTable" class="model-metrics"></div>
+                </div>
+            </section>
+
+            <!-- PREDICTION -->
+            <section id="prediction" class="section">
+
+                <div class="section-content">
+
+                    <div class="prediction-form-card">
+
+                        <form id="predictionForm">
+
+                            <input type="number" name="amount" placeholder="Amount" required>
+                            <input type="number" name="oldbalanceOrg" placeholder="Old Balance Origin" required>
+                            <input type="number" name="newbalanceOrig" placeholder="New Balance Origin" required>
+                            <input type="number" name="oldbalanceDest" placeholder="Old Balance Destination" required>
+                            <input type="number" name="newbalanceDest" placeholder="New Balance Destination" required>
+                            <input type="number" name="step" placeholder="Step" required>
+
+                            <select name="type" required>
+<option value="CASH_IN">CASH_IN</option>
+<option value="CASH_OUT">CASH_OUT</option>
+<option value="TRANSFER">TRANSFER</option>
+<option value="PAYMENT">PAYMENT</option>
+<option value="DEBIT">DEBIT</option>
+</select>
+
+                            <button type="submit">Analyze Risk</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="risk-result-card">
+                        <div id="riskScore"></div>
+                        <div id="riskCategory"></div>
+                        <div id="shapChart"></div>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- JS -->
+    <script src="js/state.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/router.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/prediction.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

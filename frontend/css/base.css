@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary: #0f172a;
+  --bg-secondary: #111827;
+  --text-primary: #e2e8f0;
+  --text-muted: #94a3b8;
+
+  --accent-color: #7c3aed;
+  --accent-glow: rgba(124, 58, 237, 0.6);
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #0b1120);
+  color: var(--text-primary);
+}
+
+#app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.section {
+  padding: 1.5rem;
+  display: none;
+  height: 100%;
+}
+
+.active-section {
+  display: block;
+}
+
+/* REMOVE padding stacking */
+.section-content {
+  padding: 1.5rem;
+}
+
+/* Scrollbar more subtle */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b1220;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(124, 58, 237, 0.6);
+  border-radius: 10px;
+}
