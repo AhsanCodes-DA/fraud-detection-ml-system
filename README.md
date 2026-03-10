@@ -183,7 +183,6 @@ The backend exposes APIs used by the frontend dashboard to fetch analytics and r
 
 # 📁 Project Folder Structure
 
-
 Fraud-Intelligence-System
 
 backend
@@ -216,9 +215,6 @@ backend
 │   ├── logger.py
 │   └── metrics.py
 │
-├── venv
-│   (Python virtual environment for managing project dependencies)
-│
 ├── app.py
 │
 ├── config.py
@@ -239,6 +235,13 @@ frontend
 ├── icons
 │
 ├── js
+│   ├── charts.js
+│   ├── dashboard.js
+│   ├── main.js
+│   ├── prediction.js
+│   ├── router.js
+│   ├── state.js
+│   └── theme.js
 │
 └── index.html
 
@@ -267,14 +270,6 @@ These metrics are used to compare models and select the best performing model.
 
 ---
 
-### venv folder
-
-The *venv (virtual environment)* folder contains a separate Python environment created for this project.
-
-It stores all installed dependencies so they do not conflict with other Python projects on the system.
-
----
-
 # 🔌 API Endpoints
 
 ### Dashboard Analytics
@@ -293,8 +288,7 @@ fraud trends
 
 POST /api/predict
 
-Example request:
-
+Example request
 
 {
   "step": 100,
@@ -305,7 +299,6 @@ Example request:
   "oldbalanceDest": 0,
   "newbalanceDest": 10000
 }
-
 
 The API returns:
 
@@ -320,18 +313,15 @@ selected model
 
 ### 1️⃣ Clone the repository
 
-
 git clone <repository-url>
-cd Fraud-Intelligence-System
 
+cd Fraud-Intelligence-System
 
 ---
 
 ### 2️⃣ Create virtual environment
 
-
 python -m venv venv
-
 
 ---
 
@@ -339,31 +329,23 @@ python -m venv venv
 
 Windows
 
-
 venv\Scripts\activate
-
 
 Linux / Mac
 
-
 source venv/bin/activate
-
 
 ---
 
 ### 4️⃣ Install dependencies
 
-
 pip install -r backend/requirements.txt
-
 
 ---
 
 ### 5️⃣ Train the models
 
-
 python backend/models/train_models.py
-
 
 This generates trained .pkl model files inside the *saved_models* directory.
 
@@ -371,15 +353,11 @@ This generates trained .pkl model files inside the *saved_models* directory.
 
 ### 6️⃣ Start the backend server
 
-
 python backend/app.py
-
 
 The Flask API will run at:
 
-
 http://127.0.0.1:5000
-
 
 ---
 
@@ -387,9 +365,7 @@ http://127.0.0.1:5000
 
 Open:
 
-
 frontend/index.html
-
 
 in your browser.
 
