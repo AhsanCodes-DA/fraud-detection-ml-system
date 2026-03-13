@@ -1,3 +1,16 @@
+# Python cache
+_pycache_/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Trained ML models
+*.pkl
+
+# Logs
+*.log
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
