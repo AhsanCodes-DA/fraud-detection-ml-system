@@ -57,7 +57,7 @@ class HeatmapService:
         fraud_df = self.df[self.df["isFraud"] == 1]
 
         # Create time buckets
-        fraud_df["time_bucket"] = (
+        fraud_df.loc[:, "time_bucket"] = (
             fraud_df["step"] // bucket_size) * bucket_size
 
         # Count fraud per time bucket

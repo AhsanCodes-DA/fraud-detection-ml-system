@@ -16,6 +16,13 @@ prediction_bp = Blueprint("prediction_bp", __name__)
 # Initialize logger
 logger = setup_logger(__name__)
 
+# ---------------------------------------------------------
+# IMPORTANT PERFORMANCE FIX
+# Initialize PredictionService ONLY ONCE at startup
+# so models are not loaded on every request
+# ---------------------------------------------------------
+prediction_service = PredictionService()
+
 
 @prediction_bp.route("/api/predict", methods=["POST"])
 def predict():
@@ -42,9 +49,6 @@ def predict():
         # Remove model_name from actual feature dictionary
         if "model_name" in input_data:
             input_data.pop("model_name")
-
-        # Initialize prediction service inside route
-        prediction_service = PredictionService()
 
         # Call prediction service
         result = prediction_service.predict(input_data, model_name)
